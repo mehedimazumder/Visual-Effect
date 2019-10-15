@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+header img{
+  min-height:1200px; 
+  display: block;
+}
+.intro-content{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.intro img{
+  max-width: 400px;
+  max-height: 400px;
+
+}
+.intro-title{
+  text-align: center;
+  margin: 30px;
+}
+.intro-text{
+  width:30%;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s all ease-in-out;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.intro-appear{
+  opacity: 1;
+  transform: translateY(0px);
+}
+.empty{
+  min-height: 600px;
+}
